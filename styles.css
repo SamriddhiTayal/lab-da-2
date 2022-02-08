@@ -1,0 +1,74 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  width: 600px;
+  background-color: #EEEEEE;
+  padding: 0 8px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@font-face {
+  font-family: 'Anglican';
+  src: url("C:/Users/User/Downloads/anglicantext/AnglicanText.ttf") format("truetype");
+}
+
+.rainy {
+  text-align: center;
+  border: 2px solid black;
+  padding: 0.5em;
+  margin: 20px;
+  font-size: 1.25rem;
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: 'Anglican';
+  letter-spacing: 4px;
+  font-weight: 500;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paraleft {
+  width: 50%;
+  text-align: center;
+  border-right: 2px solid black;
+}
+
+.pararight {
+  width: 50%;
+  text-align: center;
+  margin-right: 0;
+}
+
+.middle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.middle hr {
+  width: 50%;
+  margin: 0 auto;
+  color: black;
+}
+
+hr {
+  height: 2px;
+  display: block;
+  border: 0;
+  border-top: 1px solid black;
+}
